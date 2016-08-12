@@ -22,5 +22,14 @@
 - Consideration is golden. Please be mindful of others in the space. Our hosts at [MakeWorks] may still be at their private coworking desks on the other side of the room. 
 - Send out positive energy. Be a Jedi not a Sith. (not that there's anything wrong with being a Sith)
 
+## Sponsors (alphabetically)
+- [HackerNest]
+- [MakeWorks]
+- [MaxQ]
+- [SkyWatch]
+
 [apply for the Skywatch API]: http://www.skywatch.co/request-access
+[HackerNest]: http://hackernest.com/
 [MakeWorks]: http://www.makeworks.com/
+[SkyWatch]: http://www.skywatch.co/
+[MaxQ]: http://www.maxq.ca/
