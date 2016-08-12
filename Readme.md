@@ -1,4 +1,5 @@
 # MaxQ Challenge
+[![Slack Status](https://maxqslackin.herokuapp.com/badge.svg)](https://maxqslackin.herokuapp.com)
 
 ## Schedule - August 13th, 2016
  - **7:30am** - Doors Unlocked
