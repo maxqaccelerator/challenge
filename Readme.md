@@ -1,6 +1,6 @@
 # MaxQ Challenge
 
-## Schedule
+## Schedule - August 13th, 2016
  - **7:30am** - Doors Unlocked
  - **7:45am** - Registration
  - **8:00am** - Master of Hack explains the Rules
