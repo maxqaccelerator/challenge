@@ -20,6 +20,7 @@
 - There will be no alcohol served or allowed on site.
 - Just like Star Trek, we celebrate our differences. Infinite Diversity in Infinite Combinations. So harassment and racist, sexist, or exclusionary jokes are not appropriate for this event.
 - Consideration is golden. Please be mindful of others in the space. Our hosts at [MakeWorks] may still be at their private coworking desks on the other side of the room. 
+- Send out positive energy. Be a Jedi not a Sith. (not that there's anything wrong with being a Sith)
 
 [apply for the Skywatch API]: http://www.skywatch.co/request-access
 [MakeWorks]: http://www.makeworks.com/
