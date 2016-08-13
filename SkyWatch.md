@@ -51,43 +51,43 @@ Example:
   },
   {
     "size": 2550115,
-    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_11_Production_v161160_L2s30504_r01_PolB_160129193422. h5"
+    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_11_Production_v161160_L2s30504_r01_PolB_160129193422.h5"
   },
   {
     "size": 2585404,
-    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_17_Production_v161160_L2s30504_r01_PolB_160129193432. h5"
+    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_17_Production_v161160_L2s30504_r01_PolB_160129193432.h5"
   },
   {
     "size": 3404578,
-    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_20_Production_v161160_L2s30504_r01_PolB_160129193447. h5"
+    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_20_Production_v161160_L2s30504_r01_PolB_160129193447.h5"
   },
   {
     "size": 3418359,
-    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_14_Production_v161160_L2s30504_r01_PolB_160129193427. h5"
+    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_14_Production_v161160_L2s30504_r01_PolB_160129193427.h5"
   },
   {
     "size": 2581921,
-    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_32_Production_v161160_L2s30504_r01_PolB_160129193512. h5"
+    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_32_Production_v161160_L2s30504_r01_PolB_160129193512.h5"
   },
   {
     "size": 3390192,
-    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_35_Production_v161160_L2s30504_r01_PolB_160129193518. h5"
+    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_35_Production_v161160_L2s30504_r01_PolB_160129193518.h5"
   },
   {
     "size": 2749116,
-    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_38_Production_v161160_L2s30504_r01_PolB_160129193523. h5"
+    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_38_Production_v161160_L2s30504_r01_PolB_160129193523.h5"
   },
   {
     "size": 2493449,
-    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_23_Production_v161160_L2s30504_r01_PolB_160129193452. h5"
+    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_23_Production_v161160_L2s30504_r01_PolB_160129193452.h5"
   },
   {
     "size": 1308855,
-    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_29_Production_v161160_L2s30504_r01_PolB_160129193502. h5"
+    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_29_Production_v161160_L2s30504_r01_PolB_160129193502.h5"
   },
   {
     "size": 1151860,
-    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_26_Production_v161160_L2s30504_r01_PolB_160129193457. h5"
+    "download_path": "\/mnt\/skywatch-co2\/ACOS\/acos_L2s_091225_26_Production_v161160_L2s30504_r01_PolB_160129193457.h5"
   }
 ]
 ```
@@ -100,7 +100,11 @@ FTP Login Details:
 - Username: skywatch-ftp
 - Password: SkyWatch151FTP
 
-You may now download the file listed in the path of a response (e.g. `/mnt/skywatch-co2/MOPITT/2009.12.24/MOP01-20091224-L1V3.42.0.he5`).
+You may now cut `/mnt/skywatch-co2` off the `download_path` to download the file (e.g. `/mnt/skywatch-co2/MOPITT/2009.12.24/MOP01-20091224-L1V3.42.0.he5` becomes `/MOPITT/2009.12.24/MOP01-20091224-L1V3.42.0.he5`).
+
+```
+wget ftp://skywatch-ftp:SkyWatch151FTP@52.42.247.111/MOPITT/2009.12.24/MOP01-20091224-L1V3.42.0.he5
+```
 
 ## Troubleshooting
 Error-handling is not great - returning error messages through the API is still something that needs to be implemented.
