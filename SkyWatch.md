@@ -26,7 +26,7 @@ A list of longitude, latitude coordinate pairs as a flat, comma-separated list. 
 Examples:
 - Point: `-71.1043443253,-42.3150676016`
 - Square: `71.1043443253471,-42.3150676015829,71.1043443253471,-42.3150676015829,71.1043443253471,42.3150676015829,-71.1043443253471,42.3150676015829`
-- Polygon: `71.1043443253471,-42.3150676015829,71.1043443253471,-42.3150676015829,71.10434432 53471,42.3150676015829,-71.1043443253471,42.3150676015829,-71.1043443253471,-42.31 50676015829`
+- Polygon: `71.1043443253471,-42.3150676015829,71.1043443253471,-42.3150676015829,71.1043443253471,42.3150676015829,-71.1043443253471,42.3150676015829,-71.1043443253471,-42.3150676015829`
 
 ### `$TIMES`
 One or two UTC timestamps in ISO 8601 format (yyyy-mm-ddThh:mm:ss.sssss+|-zzzz). Partial dates can also be specified: 2009, 2009-12, 2009-12-25, 2009-12-25T13:25:00.0000+0000. If no time is specified, midnight UTC on the day in question is assumed.
@@ -34,7 +34,7 @@ If only one timestamp is passed in, a one day range is assumed. For example, if 
 
 ## Example API Call
 ```sh
-curl -H "x-api-key: 5E5bkcTPB62bPwJXvqGTR9fwg5rBhHQY8iayxhSk" https://cqh77pglf1.execute-api.us-west-2.amazonaws.com/prod/data/location/-71.1043443253471,-42.3150676 015829/time/2009-12-25
+curl -H "x-api-key: 5E5bkcTPB62bPwJXvqGTR9fwg5rBhHQY8iayxhSk" https://cqh77pglf1.execute-api.us-west-2.amazonaws.com/prod/data/location/-71.1043443253471,-42.3150676015829/time/2009-12-25
 ```
 If you get a status 200, you will receive a JSON list of CO2 satellite data files and their sizes that match the criteria.
 
